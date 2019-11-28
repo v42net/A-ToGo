@@ -1,7 +1,7 @@
 # A-ToGo
 `A-ToGo` is PortableApps starter for a BitLocker To Go encrypted disk. 
 
-I'm already using an encrypted PortableApps disk for many years and, until now, depended on hardware encryption. Recent developments show that this is not the most reliable encryption method, so I switched to BitLocker To Go.
+I'm already using an encrypted PortableApps disk for many years and, until recently, depended on hardware encryption. Recent developments show that this is not the most reliable encryption method, so I switched to BitLocker To Go.
 
 Security also depends on disciplin, so for me this means that I want to be able to access my PortableApps menu and data with one click (and a password to unlock BitLocker To Go). This wish resulted in this `A-ToGo` tool.
 
