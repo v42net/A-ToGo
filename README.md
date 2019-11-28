@@ -39,3 +39,5 @@ If you are using different locations, just modify the three cmd-files to match y
 ### The zip-file
 
 The included zip-file contains the compiled versions of `A-ToGo`. Feel free to use the pre-compiled version, or compile your own copy.
+
+`A-ToGo` is licensed under the [GNU General Public License v3.0](LICENSE).
