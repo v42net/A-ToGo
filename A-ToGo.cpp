@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------------
 // A-ToGo.cpp - AppsToGo unlock & startup tool
 //-----------------------------------------------------------------------------
-#include "A-ToGo"
+#include "A-ToGo.h"
 //-----------------------------------------------------------------------------
 int WINAPI WinMain (HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpCmd, int nShow) {
 	CHAR                Target[_MAX_FNAME];

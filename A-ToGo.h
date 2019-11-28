@@ -12,6 +12,7 @@
 #include <windows.h>
 #include <shellapi.h> 
 #include <shobjidl.h> 
+#include <stdio.h> 
 
 #define ORIGINAL_FILENAME           "A-ToGo.exe"
 #define VERSION_PRODUCTNAME         "AppsToGo unlock & startup tool"

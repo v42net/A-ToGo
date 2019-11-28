@@ -19,7 +19,6 @@ BEGIN
       VALUE "FileVersion",          VERSION_PRODUCTVERSION "\0"
       VALUE "ProductName",          VERSION_PRODUCTNAME "\0"
       VALUE "ProductVersion",       VERSION_PRODUCTVERSION "\0"
-      VALUE "InternalName",         PRODUCT_INTERNALNAME "\0"
       #ifdef VERSION_COPYRIGHT
         VALUE "LegalCopyright",     VERSION_COPYRIGHT "\0"
       #endif

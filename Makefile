@@ -8,7 +8,9 @@ default:
 	:                                                                         :
 	: ----------------------------------------------------------------------- :
 
-A-ToGo:	A-ToGo32.exe A-ToGo64.exe
+atogo:	A-ToGo32.exe A-ToGo64.exe
+ato32:	A-ToGo32.exe
+ato64:	A-ToGo64.exe
 	
 A-ToGo32.exe: A-ToGo.cpp A-ToGo.h A-ToGo32.res
 	mingw32 c++ -static A-ToGo.cpp A-ToGo32.res -lole32 -o A-ToGo32.exe
