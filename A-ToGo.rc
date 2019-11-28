@@ -1,0 +1,40 @@
+//-----------------------------------------------------------------------------
+// A-ToGo.rc - AppsToGo unlock & startup tool
+//-----------------------------------------------------------------------------
+#include "A-ToGo.h"
+//-----------------------------------------------------------------------------
+1 VERSIONINFO
+FILEVERSION                         VERSION_PRODUCTNUMBER,VERSION_PRODUCTBUILD
+PRODUCTVERSION                      VERSION_PRODUCTNUMBER,VERSION_PRODUCTBUILD
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName",          VERSION_COMPANYNAME "\0"
+      #ifdef VERSION_AUTHOR
+        VALUE "Author",             VERSION_AUTHOR "\0"
+      #endif
+      VALUE "FileDescription",      VERSION_PRODUCTNAME " " VERSION_PRODUCTVERSION "\0"
+      VALUE "FileVersion",          VERSION_PRODUCTVERSION "\0"
+      VALUE "ProductName",          VERSION_PRODUCTNAME "\0"
+      VALUE "ProductVersion",       VERSION_PRODUCTVERSION "\0"
+      VALUE "InternalName",         PRODUCT_INTERNALNAME "\0"
+      #ifdef VERSION_COPYRIGHT
+        VALUE "LegalCopyright",     VERSION_COPYRIGHT "\0"
+      #endif
+      #ifdef ORIGINAL_FILENAME
+        VALUE "OriginalFilename",     ORIGINAL_FILENAME "\0"
+      #endif
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END
+
+1 ICON "A-ToGo.ico"
+//-----------------------------------------------------------------------------
+//[eof]
+
